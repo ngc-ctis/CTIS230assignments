@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<title>Black Goose Bistro</title>
 	<link rel="stylesheet" href="myStyle.css">
+	<script src="testscript.js" defer></script>
 </head>
 
 <body>
@@ -13,12 +14,11 @@
 <p>The Black Goose Bistro offers casual lunch and dinner fare in a relaxed atmosphere. The menu changes regularly to highlight the freshest local ingredients.<br> Voted the number one restaruant in Massachusetts since 2010, and included in top 100 restaraunts in the nation, you're sure to be content both with your time and belly at the Black Goose!</p>
 
 <h2>Catering</h2>
-<p>You have fun. <em>We'll handle the cooking</em>. Black Goose Catering can handle events from snacks for a meetup to elegant corporate fundraisers. If you aren't thrilled with our pre-chosen menu, we'll work together with you to create a unique menu that is sure to fit your budget and your event's palate.<br>To inquire about catering services, please contact us at <strong>catering@blackgoose.com</strong> or call us at <strong>(123) 456-789</strong>.</p>
-
+<p>You have fun. <em>We'll handle the cooking</em>. <img class="cater" src="img/cater.jpg" alt=""> Black Goose Catering can handle events from snacks for a meetup to elegant corporate fundraisers. If you aren't thrilled with our pre-chosen menu, we'll work together with you to create a unique menu that is sure to fit your budget and your event's palate.<br>To inquire about catering services, please contact us at <strong>catering@blackgoose.com</strong> or call us at <strong>(123) 456-789</strong>.</p>
 <h2>Ratings and Reviews</h2>
 <h3>Einar Melnik, 4/5 stars</h3>
 <blockquote>
-<p>They catered for my wedding, and the food was absolutely phenomenal! My entire family are carnivores, so we sadly cannot
+<p id="firsttest">They catered for my wedding, and the food was absolutely phenomenal! My entire family are carnivores, so we sadly cannot
 eat vegetables, or anything outside of animal products. The chefs at Black Goose Bistro were understanding of our special diet, though,
 and even made us a butter, eggs, and liver cake for us to cut and share with everyone!<br>If you're also a carnivore, or just 
 need an excellent catering service, I will never stop recommending Black Goose Bistro!</p>
@@ -33,7 +33,7 @@ need an excellent catering service, I will never stop recommending Black Goose B
 </blockquote>
 <h3>Gord Aveskamp, 5/5 stars</h3>
 <blockquote>
-<p>When I searched up the Black Goose Bistro, I was met with a mixed bag of reviews, to say the least. I needed a caterer to provide fresh, quality food to my triplets' quinceañera. I was unsure of their providence, but after I entered the Bistro for a taste test, a world of mouth-watering smells and spices greeted me. I knew that even with the exorbitant prices for their quesadillas, nobody else would be able to come as close to authentic Mexican food than the Black Goose Bistro. And my daughters loved it! I have their email saved in my contacts for when my mother-in-law kicks the bucket. If you need overpriced food, then look no further than the Black Goose. I promise it's not a goose chase.
+<p class = "review">When I searched up the Black Goose Bistro, I was met with a mixed bag of reviews, to say the least. I needed a caterer to provide fresh, quality food to my triplets' quinceañera. I was unsure of their providence, but after I entered the Bistro for a taste test, a world of mouth-watering smells and spices greeted me. I knew that even with the exorbitant prices for their quesadillas, nobody else would be able to come as close to authentic Mexican food than the Black Goose Bistro. And my daughters loved it! I have their email saved in my contacts for when my mother-in-law kicks the bucket. If you need overpriced food, then look no further than the Black Goose. I promise it's not a goose chase.
 </p>
 </blockquote>
 <hr>
@@ -43,6 +43,14 @@ need an excellent catering service, I will never stop recommending Black Goose B
 <strong>Friday and Saturday:</strong> 11:00 to 00:00</p>
 <h3>Boston, Massachusetts</h3>
 <p><em>Dining in by reservation only</em><br></p>
+
+<p id = "reservetext">Reservation Unbooked</p>
+
+<p id="buttontest">You could join us!</p>
+<button id="thebutton">Apply Now!</button>
+
+<input type="text" id="myinput">
+
 <hr>
 <p><a href="menu.html">Menu</a> | <a href="staff.html">Meet the Staff!</a></p>
 </body>

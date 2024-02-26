@@ -5,26 +5,33 @@ body {
     font-family: Cambria,Georgia,"Book Antiqua",serif;
     background-color: black;
 }
-h3 {  
-    color:rgb(255, 249, 84);  
-    width: fit-content;
 
-}
-h2 {
-    color:rgb(226, 124, 0);
-    width: fit-content;
-}
-
-h1{
+h1, h2, h3 {
     color:rgb(220, 0, 0);
     width: fit-content;
-
 }
 
-strong{
+strong {
     background-color: rgba(138, 0, 180, 0.402);
     font-weight: 900;
 }
+
+p em {
+    background-color: rgba(152, 219, 255, 0.495);
+}
+
+p.menu {
+    font-style: italic;
+}
+
+p.review {
+    color: blueviolet;
+}
+
+img.cater {
+    float: inline-start;
+}
+
 a:link {  
     color:rgb(205, 0, 0);  
 }
