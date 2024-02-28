@@ -28,8 +28,21 @@ p.review {
     color: blueviolet;
 }
 
-img.cater {
-    float: inline-start;
+ul.intro {
+font-style: italic;
+}
+
+img#cater {
+width: 10%;
+float: left;
+}
+
+div.flexible {
+    display:flex;
+}
+
+ol li {
+    margin-bottom: 0.2em;
 }
 
 a:link {  
